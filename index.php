@@ -40,4 +40,23 @@ echo'$x et $y contient la meme valeur <br>';
    echo'$x et $y contiennent valeur <br>';
 
    }
+
+    //Fonction While
+
+    $i=1; //initialisation de la boucle
+    while($i<5)
+    {
+   echo $i;//Affichage
+     $i++;
    
+    }
+ 
+    // Fonction do while
+ 
+    $i=7;
+    do{
+       echo $i;
+       $i++;
+  
+    }
+    while($i<9);
